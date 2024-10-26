@@ -1,0 +1,30 @@
+    1  cd G/Geekbrains/animal_exam
+    2  cd ..
+    3  cd ..
+    4  cd ..
+    5  cd G/Geekbrains/animal_exam
+    6  git init
+    7  git add README.md
+    8  git commit - m "Init repo. Add Readme.md"
+    9  git commit -m "Init repo. Add Readme.md"
+   10  git branch -M main
+   11  git remote add origin git@github.com:SashaRonan/animal_exam.git
+   12  git push -u origin main
+   13  git push -u origin main
+   14  git checkout -b dev
+   15  git status
+   16  git status
+   17  cd src
+   18  cat>Домашние_животные.txt
+   19  cat>Вьючные_животные.txt
+   20  cat Домашние_животные.txt Вьючные_животные.txt>Все_животные.txt
+   21  cat Все_животные.txt
+   22  mv Все_животные.txt Друзья_человека.txt
+   23  git add .
+   24  cd ..
+   25  git add .
+   26  git commit -m "Пункт 1. Работа в терминале linux, использование команды cat"
+   27  git push origin dev
+   28  git status
+   29  cd src
+   30  history>cmd_history.txt
